@@ -61,7 +61,7 @@ body {
 }
 .screen {
   background-image: linear-gradient(rgba(63, 50, 50, 0.3), rgba(0, 0, 0, 0.6)),
-    url(./image/background.jpg);
+    url(./image/background.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,7 +415,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .screen {
-    background-image: url(./styles/image/background.jpg);
+    background-image: url(../styles/image/background.webp);
   }
   .container {
     display: flex;
@@ -607,7 +607,7 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .screen {
-    background-image: url(../styles/image/background.jpg);
+    background-image: url(../styles/image/background.webp);
   }
   .first-section{
     padding: 24px;
